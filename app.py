@@ -204,7 +204,7 @@ st.markdown("2. There are fifteen thousand verses in the agnipuran")
 st.markdown("3. But kids could be entrepreneurs as well")
 
 st.markdown("<h3 class='section-title'>Seq2Seq Model (Encoder + Decoder)</h3>", unsafe_allow_html=True)
-st.image(r"https://github.com/abdul-random/English-to-Hindi-Translator-using-Seq2Seq-Model-/blob/main/Encoder_and_Decoder.JPG")
+st.image("https://miro.medium.com/v2/resize:fit:4800/format:webp/1*y3fNvBFJibYF7sVz4FRE0Q.png")
 st.markdown("The Seq2Seq (Sequence-to-Sequence) model is designed to transform one sequence into another sequence, accommodating varying lengths for both input and output. It consists of two primary components: the encoder and the decoder. The encoder reads the input sequence and compresses it into a fixed-length context vector or a series of hidden states. This encoding captures the essential information necessary to understand the input sequence. The decoder then takes this encoded information — the context vector — and generates the output sequence. By leveraging the context provided by the encoder, the decoder constructs the output step by step, ensuring that the generated sequence is coherent and aligned with the input sequence's meaning. Seq2Seq models are particularly useful in tasks such as machine translation, where they convert sentences from one language to another, and time-series forecasting, where they predict future events based on past data.")
 
 st.markdown("### Model Development Code:")
